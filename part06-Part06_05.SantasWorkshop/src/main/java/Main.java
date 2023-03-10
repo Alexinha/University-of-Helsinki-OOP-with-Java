@@ -5,6 +5,15 @@ public class Main {
 
 
         // use this main method to try out your classes!
+        Gift book = new Gift("Harry Potter", 2);
+        System.out.println("Gift's name: " + book.getName());
+        System.out.println("Gift's weight: " + book.getWeight());
+        System.out.println("Gift: " + book);
+        
+        Package gifts = new Package();
+        gifts.addGift(book);
+        gifts.addGift(book);
+        System.out.println("Total weight: " + gifts.totalWeight());
 
     }
 }

@@ -11,6 +11,17 @@ public class Main {
 
         UserInterface ui = new UserInterface(list, scanner);
         ui.start();
+        
+//        list.add("read");
+//        list.add("eat");
+//        list.add("sleep");
+//        
+//        System.out.println();
+//        list.print();
+//        
+//        System.out.println("");
+//        list.remove(1);
+//        list.print();
 
     }
 }
